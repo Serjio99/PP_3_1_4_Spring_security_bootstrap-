@@ -37,11 +37,11 @@ public class UserContext implements ApplicationRunner {
 
         User adminUser = new User();
         adminUser.setRoles(adminList);
-        adminUser.setEmail("vit@mail.com");
+        adminUser.setEmail("9066346633@bk.ru");
         adminUser.setAge("22");
-        adminUser.setName("Bob");
-        adminUser.setSurname("Ivanov");
-        adminUser.setPassword("123");
+        adminUser.setName("Serge");
+        adminUser.setSurname("Tsymbalov");
+        adminUser.setPassword("256");
         userService.saveUser(adminUser);
     }
 }
